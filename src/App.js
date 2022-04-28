@@ -65,7 +65,7 @@ function App() {
     }
 
     if (currentWord.length === correctWord.length && currentWord !== correctWord) {
-      alert("👾")
+      alert("Warming 🔥 (not warning 🙃) ")
     }
 
     if (currentWord === correctWord) {
