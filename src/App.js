@@ -64,8 +64,11 @@ function App() {
       alert("WORD NOT FOUND");
     }
 
-    if (currentWord.length === correctWord.length && currentWord !== correctWord) {
-      alert("Warming 🔥 (not warning 🙃) ")
+    if (
+      currentWord.length === correctWord.length &&
+      currentWord !== correctWord
+    ) {
+      alert("Warming 🔥 (not warning 🙃) ");
     }
 
     if (currentWord === correctWord) {
@@ -83,7 +86,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <h1>Wordle Clone</h1>
+        <h1>wordle clone pop</h1>
       </nav>
       <AppContext.Provider
         value={{
